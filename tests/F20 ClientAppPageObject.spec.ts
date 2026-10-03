@@ -41,6 +41,7 @@ for (const testData of testDataArray) //now it will run for two data sets, if on
     })
 }
 
+//Test Data Fixture
 testDataFixture.only("Using Page Object for", async ({ page , testData}) =>
         {
         const pageObjectManager = new PageObjectManager(page);
